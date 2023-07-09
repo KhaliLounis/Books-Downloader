@@ -25,10 +25,7 @@ The script prompts the user to enter a book name, performs a search using the Go
 To run this script, you need the following:
 
 - Python 3.x installed on your system
-- Required Python packages:
-*`beautifulsoup4`
-*`requests`
-*`webbrowser`
+- Required Python packages: `beautifulsoup4`, `requests`, `webbrowser`
 
 ## APIs Used
 
