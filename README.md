@@ -10,7 +10,7 @@
 
 ## Introduction
 
-The Book Search and Download script is a Python application that leverages the Google Books API and Library Genesis to search for books and provide a direct download link if a PDF version is available on Library Genesis.
+This project is a practice exercise for web scraping. It demonstrates how to utilize the Google Books API and Library Genesis to search for a book, retrieve potential authors, and download the book if available in PDF format.
 The script prompts the user to enter a book name, performs a search using the Google Books API to retrieve potential authors, and then searches Library Genesis for the book. If the book is found, it opens the download link in the default web browser.
 
 ## Features
