@@ -1,24 +1,16 @@
-# Books-downloader
-# Book Search and Download
-
-This Python script allows you to search for a book using the Google Books API and download it from the Library Genesis website if available in PDF format.
+# Books downloader
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
 - [APIs Used](#apis-used)
-- [Dependencies](#dependencies)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
 The Book Search and Download script is a Python application that leverages the Google Books API and Library Genesis to search for books and provide a direct download link if a PDF version is available on Library Genesis.
-
 The script prompts the user to enter a book name, performs a search using the Google Books API to retrieve potential authors, and then searches Library Genesis for the book. If the book is found, it opens the download link in the default web browser.
 
 ## Features
@@ -33,10 +25,16 @@ The script prompts the user to enter a book name, performs a search using the Go
 To run this script, you need the following:
 
 - Python 3.x installed on your system
-- Required Python packages: `beautifulsoup4`, `requests`, `webbrowser`
+- Required Python packages:
+*`beautifulsoup4`
+*`requests`
+*`webbrowser`
 
-## Installation
+## APIs Used
 
-1. Clone this repository to your local machine using the following command:
-   
+- [Google Books API](https://developers.google.com/books/docs/overview): Used to search for books and retrieve book information, including potential authors.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, bug fixes, or improvements, please submit a pull request.
 
