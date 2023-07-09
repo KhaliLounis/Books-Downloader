@@ -1,4 +1,4 @@
-# Books downloader
+# Books Downloader
 
 ## Table of Contents
 
