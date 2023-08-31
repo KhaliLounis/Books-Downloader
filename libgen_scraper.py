@@ -47,9 +47,9 @@ def get_download_book(book_link):
         download_link=None
         
         for tr in downloads_list:
-            a = tr.find('a', string=re.compile('Libgen.lc'))
+            a = tr.find('a', string=re.compile('Libgen.li'))
             if a is not None:
-                if a.text == 'Libgen.lc':
+                if a.text == 'Libgen.li':
                     download_link = a['href']
                     break
         webbrowser.open(download_link)
